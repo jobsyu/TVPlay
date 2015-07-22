@@ -14,6 +14,8 @@
 		C5259C231B5E2D5F00199982 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5259C221B5E2D5F00199982 /* Images.xcassets */; };
 		C5259C261B5E2D5F00199982 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5259C241B5E2D5F00199982 /* LaunchScreen.xib */; };
 		C5259C321B5E2D5F00199982 /* TVPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259C311B5E2D5F00199982 /* TVPlayTests.m */; };
+		C5259C3C1B5E2DEB00199982 /* promo_full.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C5259C3B1B5E2DEB00199982 /* promo_full.mp4 */; };
+		C5259C3F1B5E302E00199982 /* MoviePlayerVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5259C3E1B5E302E00199982 /* MoviePlayerVIewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		C5259C2B1B5E2D5F00199982 /* TVPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5259C301B5E2D5F00199982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5259C311B5E2D5F00199982 /* TVPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVPlayTests.m; sourceTree = "<group>"; };
+		C5259C3B1B5E2DEB00199982 /* promo_full.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = promo_full.mp4; sourceTree = "<group>"; };
+		C5259C3D1B5E302E00199982 /* MoviePlayerVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayerVIewController.h; sourceTree = "<group>"; };
+		C5259C3E1B5E302E00199982 /* MoviePlayerVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerVIewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,8 @@
 				C5259C221B5E2D5F00199982 /* Images.xcassets */,
 				C5259C241B5E2D5F00199982 /* LaunchScreen.xib */,
 				C5259C151B5E2D5F00199982 /* Supporting Files */,
+				C5259C3D1B5E302E00199982 /* MoviePlayerVIewController.h */,
+				C5259C3E1B5E302E00199982 /* MoviePlayerVIewController.m */,
 			);
 			path = TVPlay;
 			sourceTree = "<group>";
@@ -96,6 +103,7 @@
 		C5259C151B5E2D5F00199982 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5259C3B1B5E2DEB00199982 /* promo_full.mp4 */,
 				C5259C161B5E2D5F00199982 /* Info.plist */,
 				C5259C171B5E2D5F00199982 /* main.m */,
 			);
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5259C3C1B5E2DEB00199982 /* promo_full.mp4 in Resources */,
 				C5259C211B5E2D5F00199982 /* Main.storyboard in Resources */,
 				C5259C261B5E2D5F00199982 /* LaunchScreen.xib in Resources */,
 				C5259C231B5E2D5F00199982 /* Images.xcassets in Resources */,
@@ -221,6 +230,7 @@
 			files = (
 				C5259C1E1B5E2D5F00199982 /* ViewController.m in Sources */,
 				C5259C1B1B5E2D5F00199982 /* AppDelegate.m in Sources */,
+				C5259C3F1B5E302E00199982 /* MoviePlayerVIewController.m in Sources */,
 				C5259C181B5E2D5F00199982 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
